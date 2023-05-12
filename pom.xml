@@ -46,7 +46,7 @@
 
   <repositories>
     <repository>
-      <id>MaciejAtEnefitSshGroovy</id>
+      <id>github</id>
       <name>GitHub Packages SSH-Groovy</name>
       <url>https://maven.pkg.github.com/MaciejAtEnefit/groovy-ssh</url>
     </repository>
