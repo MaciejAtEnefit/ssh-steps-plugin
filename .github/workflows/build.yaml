@@ -19,11 +19,6 @@ jobs:
           distribution: 'temurin'
       - uses: s4u/maven-settings-action@v2.8.0
         with:
-          servers: |
-            [{
-                "id": "github",
-                "username": "${{ secrets.GITHUB_USER }}",
-                "password": "${{ secrets.GITHUB_TOKEN }}"
-            }]
+          githubServer: true
       - name: Build with Maven
         run: mvn package
