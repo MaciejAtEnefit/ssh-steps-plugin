@@ -15,11 +15,11 @@
   <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
   <properties>
     <revision>2.0</revision>
-    <changelist>999999-SNAPSHOT</changelist>
+    <changelist>ENEFIT-SNAPSHOT</changelist>
     <java.level>8</java.level>
     <jenkins.version>2.361.1</jenkins.version>
     <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
-    <groovy.ssh.version>2.10.1</groovy.ssh.version>
+    <groovy.ssh.version>testrel1</groovy.ssh.version>
     <lombok.version>1.18.24</lombok.version>
     <assertj-core.version>3.24.2</assertj-core.version>
   </properties>
@@ -45,6 +45,11 @@
   </scm>
 
   <repositories>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/MaciejAtEnefit/groovy-ssh</url>
+    </repository>
     <repository>
       <id>repo.jenkins-ci.org</id>
       <url>https://repo.jenkins-ci.org/public/</url>
