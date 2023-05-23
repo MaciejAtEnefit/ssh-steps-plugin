@@ -26,4 +26,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: artefact
-          path: target/ssh-steps-legacy.hpi
+          path: target/ssh-steps-enefit.hpi
