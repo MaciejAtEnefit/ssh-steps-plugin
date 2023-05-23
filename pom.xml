@@ -12,13 +12,13 @@
   <packaging>hpi</packaging>
   <name>SSH Pipeline Steps Enefit Legacy</name>
   <inceptionYear>2018</inceptionYear>
-  <url>CustomURL/${project.artifactId}-plugin</url>
+  <url>https://github.com/MaciejAtEnefit/ssh-steps-plugin</url>
   <properties>
     <revision>2.0</revision>
     <changelist>999998-SNAPSHOT</changelist>
     <java.level>8</java.level>
     <jenkins.version>2.361.1</jenkins.version>
-    <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
+    <gitHubRepo>https://github.com/MaciejAtEnefit/ssh-steps-plugin</gitHubRepo>
     <groovy.ssh.version>2.10.1</groovy.ssh.version>
     <lombok.version>1.18.24</lombok.version>
     <assertj-core.version>3.24.1</assertj-core.version>
