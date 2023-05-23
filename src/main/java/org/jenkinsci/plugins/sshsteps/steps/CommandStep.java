@@ -44,7 +44,7 @@ public class CommandStep extends BasicSSHStep {
 
     @Override
     public String getFunctionName() {
-      return "sshCommand";
+      return "legacy_sshCommand";
     }
 
     @Override

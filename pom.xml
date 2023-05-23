@@ -7,10 +7,10 @@
     <artifactId>plugin</artifactId>
     <version>4.53</version>
   </parent>
-  <artifactId>ssh-steps</artifactId>
+  <artifactId>ssh-steps-enefit-legacy</artifactId>
   <version>${revision}.${changelist}</version>
   <packaging>hpi</packaging>
-  <name>SSH Pipeline Steps</name>
+  <name>SSH Pipeline Steps Enefit Legacy</name>
   <inceptionYear>2018</inceptionYear>
   <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
   <properties>
@@ -34,6 +34,13 @@
     <developer>
       <id>nrayapati</id>
       <name>Naresh Rayapati</name>
+    </developer>
+    <developer>
+      <id>MaciejAtEnefit</id>
+      <name>Maciej Aleksandrowicz</name>
+      <roles>
+        <role>Customization for different JSCH versions</role>
+      </roles>
     </developer>
   </developers>
 

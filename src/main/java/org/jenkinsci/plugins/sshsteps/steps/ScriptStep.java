@@ -40,7 +40,7 @@ public class ScriptStep extends BasicSSHStep {
 
     @Override
     public String getFunctionName() {
-      return "sshScript";
+      return "legacy_sshScript";
     }
 
     @Override

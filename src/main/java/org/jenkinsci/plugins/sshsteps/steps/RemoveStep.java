@@ -39,7 +39,7 @@ public class RemoveStep extends BasicSSHStep {
 
     @Override
     public String getFunctionName() {
-      return "sshRemove";
+      return "legacy_sshRemove";
     }
 
     @Override

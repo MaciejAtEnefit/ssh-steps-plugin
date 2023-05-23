@@ -61,7 +61,7 @@ public class GetStep extends BasicSSHStep {
 
     @Override
     public String getFunctionName() {
-      return "sshGet";
+      return "legacy_sshGet";
     }
 
     @Override

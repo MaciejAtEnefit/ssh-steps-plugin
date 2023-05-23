@@ -56,7 +56,7 @@ public class PutStep extends BasicSSHStep {
 
     @Override
     public String getFunctionName() {
-      return "sshPut";
+      return "legacy_sshPut";
     }
 
     @Override
